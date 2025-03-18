@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-image: url("../image/bg.webp");
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+main {
+  background-color: lightcyan;
+  margin: 200px 150px 50px;
+  border: 2px solid gray;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 30px;
+}
+
+p.penutup {
+  color: white;
+  text-align: center;
+}

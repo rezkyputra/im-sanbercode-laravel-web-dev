@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Halaman Daftar</h1>
+    <form action="welcome.html" method="post">
+      <label for="nama">Full Name</label> <br />
+      <input
+        type="text"
+        name="fullname"
+        id="nama"
+        required
+        placeholder="Masukan full name anda"
+      />
+      <br />
+      <br />
+      <label for="usia">Age</label> <br />
+      <input type="number" name="age" id="usia" /> <br />
+      <br />
+      <label for="password">Password</label> <br />
+      <input type="password" name="password" id="password" /> <br />
+      <br />
+      <label>Warga Negara</label> <br />
+      <input type="radio" value="1" name="wn" />Indonesia <br />
+      <input type="radio" value="2" name="wn" />Luar Negeri <br />
+      <br />
+      <label>Skill</label> <br />
+      <input type="checkbox" value="1" name="skill" />Laravel <br />
+      <input type="checkbox" value="2" name="skill" />ReactJS <br />
+      <input type="checkbox" value="3" name="skill" />VueJS <br />
+      <br />
+      <label>Bahasa</label> <br />
+      <select name="bahasa">
+        <option value="1">Indonesia</option>
+        <option value="2">Malaysia</option>
+        <option value="3">Singapura</option>
+      </select>
+      <br />
+      <br />
+      <label for="alamat">Alamat</label> <br />
+      <textarea name="alamat" id="alamat" rows="10" cols="30"></textarea> <br />
+      <br />
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
